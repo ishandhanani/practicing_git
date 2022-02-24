@@ -1,0 +1,34 @@
+How to use Git: A High Level Overview which indicates my current knowledge
+
+1. Create a repository online
+
+2. Navigate to where you want to store it via ls and cd
+
+3. Have command line open in order to clone it using the link provided 
+ - git clone <link>
+
+4. Open the folder up and start working and adding 
+
+5. To send it, start with git status to check which files can be sent
+ - git status
+ - git add <file>
+
+6. Commit it and add an informative message
+ - git commit -m "message"
+
+7. Push it to the repository using git push origin main where origin is the repo and main is the branch
+
+_________________________________________________________________
+
+To work on a branch
+
+1. Create a branch online 
+
+2. Switch to that branch locally 
+ - git checkout <branch name>
+
+3. Do the same steps as above
+
+4. If possible and after checking, make sure to merge online
+
+5. To update local, use git pull 
