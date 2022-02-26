@@ -32,3 +32,14 @@ To work on a branch
 4. If possible and after checking, make sure to merge online
 
 5. To update local, use git pull 
+
+_________________________________________________________________
+
+Suppose you screw up (like accidentally trying to push a commit that does not go through)
+
+1. git reset HEAD^ --soft (Save your changes, back to last commit)
+
+Or
+
+
+1. git reset HEAD^ --hard (Discard changes, back to last commit) <---I would just use this one unless stuff is really important
